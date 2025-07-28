@@ -1,0 +1,195 @@
+{
+  "site": {
+    "name": "Yesica Steinraiser",
+    "title": "Dra. Yesica Steinraiser - Especialista en Derecho Laboral",
+    "description": "Abogada especialista en derecho laboral en Buenos Aires. 15 años de experiencia, 97% de casos exitosos. Consulta gratuita.",
+    "url": "https://www.steinraiser.com.ar",
+    "language": "es",
+    "locale": "es_AR"
+  },
+  "contact": {
+    "email": "info@steinraiser.com.ar",
+    "phone": "+54 11 XXXX-XXXX",
+    "whatsapp": "+54 9 11 XXXX-XXXX",
+    "address": {
+      "street": "[Dirección del estudio]",
+      "city": "Ciudad Autónoma de Buenos Aires",
+      "country": "Argentina",
+      "postalCode": "CXXXX"
+    },
+    "hours": {
+      "weekdays": "Lunes a Viernes 9:00 - 18:00",
+      "weekend": "Cerrado"
+    }
+  },
+  "professional": {
+    "license": "T° XX F° XXX CPACF",
+    "specialization": "Derecho Laboral y Seguridad Social",
+    "experience_years": 15,
+    "success_rate": 97
+  },
+  "seo": {
+    "keywords": [
+      "abogada laboral Buenos Aires",
+      "despido sin causa indemnización",
+      "accidente trabajo abogado",
+      "diferencias salariales reclamo",
+      "abogada laboral empresas",
+      "derecho laboral Argentina",
+      "consulta abogado laboral",
+      "indemnización por despido",
+      "reclamos laborales CABA"
+    ],
+    "og_image": "images/og-image.jpg",
+    "twitter_card": "summary_large_image"
+  },
+  "services": [
+    {
+      "id": "despidos",
+      "name": "Despidos Improcedentes",
+      "icon": "images/icons/despidos.svg",
+      "description": "Defensa integral en casos de despidos sin causa, discriminatorios o por causas inexistentes."
+    },
+    {
+      "id": "salarios",
+      "name": "Diferencias Salariales",
+      "icon": "images/icons/salarios.svg",
+      "description": "Reclamo de salarios adeudados, horas extras, bonificaciones y beneficios no pagados."
+    },
+    {
+      "id": "accidentes",
+      "name": "Accidentes Laborales",
+      "icon": "images/icons/accidentes.svg",
+      "description": "Representación en casos de accidentes de trabajo y enfermedades profesionales."
+    },
+    {
+      "id": "discriminacion",
+      "name": "Discriminación y Acoso",
+      "icon": "images/icons/discriminacion.svg",
+      "description": "Defensa contra discriminación laboral, acoso moral y violencia en el trabajo."
+    },
+    {
+      "id": "conciliacion",
+      "name": "Conciliación y Transacciones",
+      "icon": "images/icons/conciliacion.svg",
+      "description": "Negociación de acuerdos extrajudiciales y representación en audiencias."
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance Laboral",
+      "icon": "images/icons/compliance.svg",
+      "description": "Asesoramiento preventivo para empresas en cumplimiento de normativas laborales."
+    }
+  ],
+  "resources": [
+    {
+      "id": "calculadora",
+      "name": "Calculadora de Indemnización",
+      "icon": "images/icons/calculadora.svg",
+      "type": "tool",
+      "description": "Calcula tu indemnización por despido paso a paso"
+    },
+    {
+      "id": "cartas",
+      "name": "Modelos de Cartas",
+      "icon": "images/icons/cartas.svg",
+      "type": "download",
+      "description": "Plantillas legales para reclamos laborales"
+    },
+
+    {
+      "id": "newsletter",
+      "name": "Newsletter LaborFlash",
+      "icon": "images/icons/newsletter.svg",
+      "type": "subscription",
+      "description": "Novedades legales cada 15 días"
+    }
+  ],
+  "blog_categories": [
+    {
+      "id": "jurisprudencia",
+      "name": "Jurisprudencia",
+      "description": "Análisis de fallos y precedentes judiciales"
+    },
+    {
+      "id": "novedades",
+      "name": "Novedades Legales",
+      "description": "Últimas modificaciones en la legislación laboral"
+    },
+    {
+      "id": "casos",
+      "name": "Casos Prácticos",
+      "description": "Experiencias reales y lecciones aprendidas"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "María González",
+      "case": "Despido discriminatorio",
+      "text": "Yesica me ayudó a recuperar mi trabajo y obtener una compensación justa. Su profesionalismo es excepcional.",
+      "rating": 5
+    },
+    {
+      "name": "Carlos Rodríguez",
+      "case": "Accidente laboral",
+      "text": "Gracias a su experiencia, logré una indemnización que me permitió cubrir todos mis gastos médicos.",
+      "rating": 5
+    },
+    {
+      "name": "Ana Martínez",
+      "case": "Diferencias salariales",
+      "text": "Recuperé 18 meses de salarios adeudados. Su dedicación y conocimiento hicieron la diferencia.",
+      "rating": 5
+    }
+  ],
+  "media_logos": [
+    {
+      "name": "La Nación",
+      "logo": "images/logos/lanacion.svg",
+      "url": "https://www.lanacion.com.ar"
+    },
+    {
+      "name": "Infobae",
+      "logo": "images/logos/infobae.svg",
+      "url": "https://www.infobae.com"
+    },
+    {
+      "name": "Ámbito",
+      "logo": "images/logos/ambito.svg",
+      "url": "https://www.ambito.com"
+    }
+  ],
+  "social_media": {
+    "linkedin": "https://linkedin.com/in/yesica-steinraiser",
+    "twitter": "https://twitter.com/steinraiser",
+    "instagram": "https://instagram.com/steinraiser_abogada"
+  },
+  "integrations": {
+    "google_analytics": "G-XXXXXXXXXX",
+    "google_tag_manager": "GTM-XXXXXXX",
+    "calendly": "https://calendly.com/steinraiser",
+    "formspree": "https://formspree.io/f/xxxxxxxx"
+  },
+  "legal": {
+    "privacy_policy_url": "legal.html",
+    "terms_of_service_url": "legal.html",
+    "cookie_policy_url": "legal.html"
+  },
+  "features": {
+    "splash_screen": true,
+    "smooth_scrolling": true,
+    "lazy_loading": true,
+    "dark_mode": false,
+    "multilingual": false,
+    "blog": true,
+    "newsletter": true,
+    "whatsapp_widget": true,
+    "exit_intent_popup": true
+  },
+  "performance": {
+    "minify_css": true,
+    "minify_js": true,
+    "optimize_images": true,
+    "enable_caching": true
+  }
+}

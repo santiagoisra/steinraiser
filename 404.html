@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada - Yesica Steinraiser</title>
+    <meta name="description" content="La página que buscas no existe. Vuelve al inicio del sitio de Yesica Steinraiser, especialista en derecho laboral.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--blanco-hielo) 0%, #f0f8ff 100%);
+            padding: 2rem;
+        }
+        
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+            background: white;
+            padding: 4rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 59, 92, 0.1);
+            border: 1px solid rgba(255, 95, 87, 0.1);
+        }
+        
+        .error-number {
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--azul-confianza);
+            font-family: 'Playfair Display', serif;
+            line-height: 1;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(46, 134, 171, 0.2);
+        }
+        
+        .error-title {
+            font-size: 2.5rem;
+            color: var(--azul-notarial);
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .error-message {
+            font-size: 1.2rem;
+            color: var(--gris-carbon);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+        
+        .error-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .btn-home {
+            background: var(--azul-confianza);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(46, 134, 171, 0.3);
+        }
+        
+        .btn-home:hover {
+            background: #e54e47;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 95, 87, 0.4);
+        }
+        
+        .btn-contact {
+            background: transparent;
+            color: var(--azul-notarial);
+            padding: 1rem 2rem;
+            border: 2px solid var(--azul-notarial);
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-contact:hover {
+            background: var(--azul-notarial);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .error-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            background: var(--azul-confianza);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .error-icon::before {
+            content: '⚖️';
+            font-size: 3rem;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .search-box {
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 50px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-input:focus {
+            border-color: var(--azul-confianza);
+        }
+        
+        .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--azul-confianza);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .search-btn:hover {
+            background: #e54e47;
+        }
+        
+        @media (max-width: 768px) {
+            .error-content {
+                padding: 3rem 2rem;
+                margin: 1rem;
+            }
+            
+            .error-number {
+                font-size: 6rem;
+            }
+            
+            .error-title {
+                font-size: 2rem;
+            }
+            
+            .error-message {
+                font-size: 1.1rem;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-content">
+            <div class="error-icon"></div>
+            <div class="error-number">404</div>
+            <h1 class="error-title">Página no encontrada</h1>
+            <p class="error-message">
+                Parece que esta página tomó vacaciones… pero tus derechos no.
+            </p>
+            
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="¿Qué estás buscando?" id="searchInput">
+                <button class="search-btn" onclick="performSearch()">🔍</button>
+            </div>
+            
+            <div class="error-actions">
+                <a href="index.html" class="btn-home">
+                    🏠 Volver al inicio
+                </a>
+                <a href="index.html#contacto" class="btn-contact">
+                    📞 Contactar ahora
+                </a>
+            </div>
+            
+            <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+                <h3 style="color: var(--azul-notarial); margin-bottom: 1rem;">Enlaces útiles:</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                    <a href="index.html#servicios" style="color: var(--azul-confianza); text-decoration: none;">Servicios</a>
+                    <a href="index.html#sobre-yesica" style="color: var(--azul-confianza); text-decoration: none;">Sobre Yesica</a>
+                    <a href="index.html#recursos" style="color: var(--azul-confianza); text-decoration: none;">Recursos</a>
+                    <a href="index.html#blog" style="color: var(--azul-confianza); text-decoration: none;">Blog</a>
+                    <a href="legal.html" style="color: var(--azul-confianza); text-decoration: none;">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.trim();
+            if (searchTerm) {
+                // Redirigir al inicio con el término de búsqueda
+                window.location.href = `index.html#search=${encodeURIComponent(searchTerm)}`;
+            }
+        }
+        
+        // Permitir búsqueda con Enter
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+        
+        // Animación de entrada
+        document.addEventListener('DOMContentLoaded', function() {
+            const content = document.querySelector('.error-content');
+            content.style.opacity = '0';
+            content.style.transform = 'translateY(30px)';
+            
+            setTimeout(() => {
+                content.style.transition = 'all 0.6s ease';
+                content.style.opacity = '1';
+                content.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+</body>
+</html>

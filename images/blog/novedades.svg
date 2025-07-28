@@ -1,0 +1,27 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="url(#blog-gradient2)"/>
+  
+  <!-- Documento legal -->
+  <rect x="100" y="40" width="100" height="120" fill="#FAFCFF" rx="4" stroke="#003B5C" stroke-width="2"/>
+  
+  <!-- Sello oficial -->
+  <circle cx="150" cy="80" r="20" fill="none" stroke="#FF5F57" stroke-width="3"/>
+  <text x="150" y="85" text-anchor="middle" fill="#FF5F57" font-size="12" font-weight="bold">NUEVO</text>
+  
+  <!-- Líneas de texto -->
+  <rect x="110" y="110" width="80" height="3" fill="#003B5C"/>
+  <rect x="110" y="120" width="70" height="2" fill="#666"/>
+  <rect x="110" y="130" width="75" height="2" fill="#666"/>
+  <rect x="110" y="140" width="60" height="2" fill="#666"/>
+  
+  <!-- Fecha -->
+  <rect x="110" y="50" width="30" height="15" fill="#FF5F57"/>
+  <text x="125" y="60" text-anchor="middle" fill="#FAFCFF" font-size="8">2024</text>
+  
+  <defs>
+    <linearGradient id="blog-gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

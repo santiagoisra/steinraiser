@@ -1,0 +1,35 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo desenfocado de oficina -->
+  <rect width="400" height="500" fill="url(#office-gradient)"/>
+  
+  <!-- Silueta profesional -->
+  <ellipse cx="200" cy="180" rx="80" ry="100" fill="#003B5C" opacity="0.8"/>
+  
+  <!-- Cabeza -->
+  <circle cx="200" cy="140" r="40" fill="#D4A574"/>
+  
+  <!-- Cabello -->
+  <path d="M160 120 Q200 100 240 120 Q240 140 220 150 Q200 145 180 150 Q160 140 160 120" fill="#8B4513"/>
+  
+  <!-- Traje -->
+  <rect x="160" y="180" width="80" height="120" fill="#003B5C" rx="10"/>
+  
+  <!-- Camisa -->
+  <rect x="170" y="190" width="60" height="100" fill="#FAFCFF" rx="5"/>
+  
+  <!-- Collar/Solapa -->
+  <path d="M170 190 L200 210 L230 190" fill="none" stroke="#003B5C" stroke-width="2"/>
+  
+  <!-- Texto profesional -->
+  <text x="200" y="350" text-anchor="middle" fill="#FAFCFF" font-family="Playfair Display" font-size="18" font-weight="bold">Dra. Yesica Steinraiser</text>
+  <text x="200" y="375" text-anchor="middle" fill="#FAFCFF" font-family="Lato" font-size="14">Especialista en Derecho Laboral</text>
+  
+  <!-- Definir gradiente -->
+  <defs>
+    <linearGradient id="office-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D1E7DD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
